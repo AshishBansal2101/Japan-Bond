@@ -1,0 +1,6 @@
+.hov-f {
+  transition: all 0.2s ease-in-out;
+}
+.hov-f:hover {
+  transform: scale(1.1);
+}
