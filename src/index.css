@@ -1,7 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 * {
-  margin-top: -8px;
+  margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
+  /* overflow-x: hidden; */
+  font-family: "Cabin", sans-serif;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+body {
+  /* cursor: url("./images/icon.png"), auto; */
+  cursor: url("https://img.icons8.com/external-those-icons-lineal-color-those-icons/24/000000/external-cursor-selection-cursors-those-icons-lineal-color-those-icons-1.png"),
+    auto;
 }

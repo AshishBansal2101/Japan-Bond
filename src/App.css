@@ -1,9 +1,46 @@
-* {
-  margin: 0;
-  scroll-behavior: smooth;
-}
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+.whatsapp_float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.whatsapp-icon {
+  margin-top: 16px;
+}
+.MuiContainer-root {
+  background-color: rgb(31, 41, 55);
+  box-shadow: 2px 3px 5px #292828;
+}
+/* MuiContainer-maxWidthXl css-19r6kue-MuiContainer-root */
+.css-1t6c9ts {
+  justify-content: flex-end;
+}
+/* for mobile */
+@media screen and (max-width: 767px) {
+  .whatsapp-icon {
+    margin-top: 10px;
+  }
+
+  .whatsapp_float {
+    width: 40px;
+    height: 40px;
+    bottom: 20px;
+    right: 10px;
+    font-size: 22px;
+  }
 }

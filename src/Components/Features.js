@@ -1,27 +1,26 @@
 import React from "react";
-import item1 from "../images/head-1.png";
-import Snowflakes from "magic-snowflakes";
-// const snowflakes = new Snowflakes();
-// import { DepthOfFieldSnowfall } from "react-snowflakes";
-// Snowflakes.stop();
-// Snowflakes.start();
+// import item1 from "../images/head-1.png";
+import eco from "../images/eco.jpg";
+// import mii from "../images/mii.jpg";
+import mki from "../images/mki.jpg";
+import tem from "../images/ter.jpg";
+import water from "../images/water.jpg";
+
 const Features = () => {
   return (
-    <div>
+    <div id="features">
       <div class="max-w-screen-xl p-4 bg-white dark:bg-gray-800 mx-auto px-4 sm:px-6 lg:px-8 relative py-26 lg:mt-20">
         <div class="relative">
           <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div class="lg:col-start-2 lg:max-w-2xl ml-auto">
               <p class="text-base leading-6 text-indigo-500 font-semibold uppercase">
-                Interactive
+                Japan-Bond
               </p>
               <h4 class="mt-2 text-2xl leading-8 font-extrabold text-gray-900 dark:text-white sm:text-3xl sm:leading-9">
-                Interactivity between team members is the key of the success.
+                A Adhesive Manufacturer,Known For Its Quality
               </h4>
               <p class="mt-4 text-lg leading-6 text-gray-500 dark:text-gray-300">
-                Build a simply and powered collaborative space for all your
-                team. Track, share, measure, you have a fully control, it&#x27;s
-                never be simply and efficient.
+                Why Choose Us
               </p>
               <ul class="mt-8 md:grid md:grid-cols-2 gap-6">
                 <li class="mt-6 lg:mt-0">
@@ -40,7 +39,7 @@ const Features = () => {
                       </svg>
                     </span>
                     <span class="ml-4 text-base leading-6 font-medium text-gray-500 dark:text-gray-200">
-                      Live modifications
+                      Make In India
                     </span>
                   </div>
                 </li>
@@ -60,7 +59,7 @@ const Features = () => {
                       </svg>
                     </span>
                     <span class="ml-4 text-base leading-6 font-medium text-gray-500 dark:text-gray-200">
-                      Data tracker
+                      Eco-Friendly
                     </span>
                   </div>
                 </li>
@@ -80,7 +79,7 @@ const Features = () => {
                       </svg>
                     </span>
                     <span class="ml-4 text-base leading-6 font-medium text-gray-500 dark:text-gray-200">
-                      24/24 support
+                      Water Proof
                     </span>
                   </div>
                 </li>
@@ -100,7 +99,7 @@ const Features = () => {
                       </svg>
                     </span>
                     <span class="ml-4 text-base leading-6 font-medium text-gray-500 dark:text-gray-200">
-                      Free tips to improve work time
+                      Terminator Proof
                     </span>
                   </div>
                 </li>
@@ -112,27 +111,29 @@ const Features = () => {
                   <img
                     class="rounded-lg shadow-lg w-32 md:w-56"
                     width="200"
-                    src={item1}
+                    src={mki}
                     alt="1"
                   />
-                  <img
-                    class="rounded-lg shadow-lg w-40 md:w-64"
-                    width="260"
-                    src={item1}
-                    alt="2"
-                  />
+                  <div className="feath">
+                    <img
+                      class="rounded-lg shadow-lg w-40 md:w-64"
+                      width="200"
+                      src={tem}
+                      alt="2"
+                    />
+                  </div>
                 </div>
                 <div class="flex items-start justify-center lg:justify-start space-x-4 ml-12">
                   <img
                     class="rounded-lg shadow-lg w-24 md:w-40"
                     width="170"
-                    src={item1}
+                    src={eco}
                     alt="3"
                   />
                   <img
                     class="rounded-lg shadow-lg w-32 md:w-56"
                     width="200"
-                    src={item1}
+                    src={water}
                     alt="4"
                   />
                 </div>

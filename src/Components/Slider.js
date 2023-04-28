@@ -1,26 +1,24 @@
 // import React from "react";
 // import Carousel from "react-bootstrap/Carousel";
 // import "bootstrap/dist/css/bootstrap.min.css";
-import item1 from "../images/head-1.png";
-import item2 from "../images/head-2.jpg";
-import item3 from "../images/head-3.jpg";
+import item1 from "../images/slider1.png";
+import item2 from "../images/slider2.png";
+import item3 from "../images/slider3.png";
+
 import React from "react";
 import { Carousel } from "react-carousel-minimal";
 const data = [
   {
-    image:
-      "https://images.unsplash.com/photo-1558470598-a5dda9640f68?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y29sb3IlMjBpbiUyMHdhdGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+    image: item1,
     caption: "Japan Bond",
   },
   {
-    image:
-      "https://images.pexels.com/photos/891030/pexels-photo-891030.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    image: item2,
     caption: "Adhesive Manufacturer",
   },
   {
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5f5SDe3rtNH85vGAxbgGLFnufsOs5xMofCA&usqp=CAU",
-    caption: "Premium Quality",
+    image: item3,
+    caption: "Synthetic Resin Adhesive",
   },
   //   {
   //     image:
@@ -61,7 +59,7 @@ const captionStyle = {
 
 const Slider = () => {
   return (
-    <div className="App">
+    <div className="App slider" id="header">
       <div style={{ textAlign: "center" }}>
         <div
           style={
@@ -74,7 +72,7 @@ const Slider = () => {
             data={data}
             time={2000}
             width="100%"
-            height="400px"
+            height="500px"
             captionStyle={captionStyle}
             // radius="10px"
             slideNumber={false}
@@ -89,7 +87,7 @@ const Slider = () => {
             style={{
               textAlign: "center",
               maxWidth: "100%",
-              maxHeight: "400px",
+              maxHeight: "80vh",
               //   margin: "40px auto",
             }}
           />

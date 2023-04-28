@@ -1,0 +1,33 @@
+/* .seg {
+  background: url(https://www.nps.gov/common/uploads/cropped_image/primary/E8EE557F-BBCA-EE4F-6D75C5E142BFDA62.jpg?width=1600&quality=90&mode=crop);
+  background-size: cover;
+  box-shadow: inset 0 0 0 4000px rgba(255, 30, 30, 0.3);
+  height: 300px;
+} */
+
+.seg {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("https://www.nps.gov/common/uploads/cropped_image/primary/E8EE557F-BBCA-EE4F-6D75C5E142BFDA62.jpg?width=1600&quality=90&mode=crop");
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: cursive;
+}
+
+.centered {
+  /* top: 50%;
+  left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  color: white;
+  text-align: center;
+  justify-content: center;
+  padding: 50px;
+  font-size: larger;
+}
